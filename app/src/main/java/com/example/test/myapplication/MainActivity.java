@@ -55,6 +55,11 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
     }
 
 
+
+
+
+
+
     @Override
     public void onClick(View v) {
         switch (v.getId()){
@@ -62,7 +67,16 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
                 Log.e("nihao","按钮点击");
                 InputMethodManager imm = (InputMethodManager)button.getContext().getSystemService(Context.INPUT_METHOD_SERVICE);
                 imm.showSoftInput(button,InputMethodManager.SHOW_FORCED);
+
+                test();
                 break;
         }
+    }
+
+
+
+
+    public void test(){
+
     }
 }
