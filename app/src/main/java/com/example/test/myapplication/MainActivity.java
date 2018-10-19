@@ -52,6 +52,19 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
         button.setFocusable(true);
         button.requestFocus();
         button.setOnClickListener(this);
+
+
+
+
+    }
+
+
+    /**
+     * aiya
+     */
+    public void test(){
+
+        //??????
     }
 
 
@@ -59,7 +72,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.bt_test:
-                Log.e("nihao","按钮点击");
+                //Log.e("nihao","按钮点击");
+                test();
                 InputMethodManager imm = (InputMethodManager)button.getContext().getSystemService(Context.INPUT_METHOD_SERVICE);
                 imm.showSoftInput(button,InputMethodManager.SHOW_FORCED);
                 break;
