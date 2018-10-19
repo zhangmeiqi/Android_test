@@ -46,6 +46,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        //本地注释信息新增  哈哈啊
         button = findViewById(R.id.bt_test2);
         button.setFocusable(true);
         button.requestFocus();
