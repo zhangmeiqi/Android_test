@@ -48,7 +48,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
 
 
         //本地注释信息新增  android_test_update
-        button = findViewById(R.id.bt_test2);
+        button = findViewById(R.id.bt_test2------test1分支上修改);
         button.setFocusable(true);
         button.requestFocus();
         button.setOnClickListener(this);
